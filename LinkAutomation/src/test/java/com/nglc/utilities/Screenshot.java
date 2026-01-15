@@ -13,7 +13,7 @@ import org.openqa.selenium.WebDriver;
 public class Screenshot {
 
 	public static String getScreenshot(WebDriver driver, String tcName) throws IOException {
-		String photo = System.getProperty("user.dir") + "/src/test/resources/screenshots/"; // "eclipse-workspace/LINK/src/test/resource/Screenshots/";
+		String photo = System.getProperty("user.dir") + "/src/test/resources/screenshots/";
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		
 		File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
