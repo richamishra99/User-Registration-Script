@@ -48,6 +48,6 @@ Direct database access is not available for public websites.
 
 ### Steps
 ```bash
-git clone https://github.com/your-username/qa-registration-automation.git
+git clone https://github.com/your-username/User-Registration-Script.git
 cd qa-registration-automation
 mvn clean test
