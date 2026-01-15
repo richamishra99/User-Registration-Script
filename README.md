@@ -49,5 +49,5 @@ Direct database access is not available for public websites.
 ### Steps
 ```bash
 git clone https://github.com/your-username/User-Registration-Script.git
-cd qa-registration-automation
+cd User-Registration-Script
 mvn clean test
